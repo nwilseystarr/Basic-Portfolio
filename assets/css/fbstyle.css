@@ -50,21 +50,8 @@ body {
     margin-bottom: -50px;
     min-height: 100%;
     padding: 10px 0px 0px 0px;
-    max-width: 960px;
-    left: 225px; 
-}
-
-form{
-    width: 80%;
-    position: relative;
-    left: 10%;
-    border: blue solid 2px;
-}
-
-.message{ 
-    height: 200px !important;
-    width: 100%;
-    border: red solid 2px;
+    width: 960px;
+    display: flex;
 }
 
 h1{
@@ -72,7 +59,7 @@ h1{
     color: #4aaaa5;
     display: block;
     font-family: 'Georgia', 'Times', 'Times New Roman';
-    left: 18%;
+    left: 20px;
     position: relative;
     width: 900px;
 }
@@ -89,10 +76,6 @@ blockquote{
 
 .push{
     height: 50px;
-}
-
-input{
-    width: 750px;
 }
 
 footer{
