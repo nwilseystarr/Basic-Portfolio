@@ -6,6 +6,11 @@ header{
     background-color: white;
     height: 150px;
     margin: 0px auto 20px auto;
+    max-width: 100%;
+}
+
+.headercontent{
+    margin: auto;   
     max-width: 960px;
 }
 
@@ -13,18 +18,22 @@ header{
     background-color: #4aaaa5;
     border-color: #cccccc;
     color: white;
-    display: inline-flex; 
+    display: inline-block; 
     font-family: 'Georgia', 'Times', 'Times New Roman';
     font-size: 24px;
     font-weight: 900;
     padding: 20px;
     text-align: center;
-    top: 900px;
+    position: relative;
+    top: 85px;
 }
 
 nav{
     display: inline-flex;
     text-align: center;
+    top: 85px;
+    position: relative;
+    left: 43%;
 }
 
 #about, #portfolio, #contact{
