@@ -1,5 +1,6 @@
 /*Stylesheet*/
 
+/*Header*/
 header{
     border-bottom: solid 2px #cccccc;
     background-color: white;
@@ -16,7 +17,7 @@ header{
     font-family: 'Georgia', 'Times', 'Times New Roman';
     font-size: 24px;
     font-weight: 900;
-    left: 225px;
+    left: 21%;
     padding: 20px;
     position: relative;
     text-align: center;
@@ -26,7 +27,7 @@ header{
 nav{
     display: inline-flex;
     float: absolute;
-    left: 650px;
+    left: 46%;
     position: relative;
     text-align: center;
     top: 80px;
@@ -37,6 +38,12 @@ nav{
     padding: 20px;
 }
 
+a:link, a:visited{
+    color: #777777;
+    text-decoration: none;
+}
+
+/*Body*/
 body {
     background-image:url(/Users/nicolewilsey/trilogy/homework/Basic-Portfolio/assets/images/dust_scratches.png); 
     color: #777777;
@@ -47,24 +54,10 @@ body {
 .container{
     background-color: #ffffff;
     margin: auto;   
-    margin-bottom: -50px;
-    min-height: 100%;
+    margin-bottom: 50px;
+    max-height: 100%;
     padding: 10px 0px 0px 0px;
     max-width: 960px;
-    left: 225px; 
-}
-
-form{
-    width: 80%;
-    position: relative;
-    left: 10%;
-    border: blue solid 2px;
-}
-
-.message{ 
-    height: 200px !important;
-    width: 100%;
-    border: red solid 2px;
 }
 
 h1{
@@ -72,10 +65,12 @@ h1{
     color: #4aaaa5;
     display: block;
     font-family: 'Georgia', 'Times', 'Times New Roman';
-    left: 18%;
+    left: 10%;
     position: relative;
-    width: 900px;
+    width: 80%;
 }
+
+/*About Page*/
 
 .mainphoto{
     float: left;
@@ -87,14 +82,75 @@ blockquote{
     padding: 20px;
 }
 
-.push{
-    height: 50px;
+/*Contact Page*/
+form{
+    width: 90%;
+    position: relative;
+    left: 10%;
 }
 
 input{
-    width: 750px;
+   width: 90%;
+   position: relative;
+   margin: 5px 0px 5px 0px;
 }
 
+textarea{
+    height: 150px; 
+    width: 90%;
+    left: 50%;
+    border: #cccccc solid 1px;
+}
+
+fieldset{
+    border: none;
+}
+
+#submit{
+    background-color: #4aaaa5;
+    color: white;
+    height: 30px;
+    width: 10%;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/*Portfolio Page*/
+
+.flex-container{
+    background-color: #ffffff;
+    margin: auto;   
+    margin-bottom: 50px;
+    max-height: 100%;
+    padding: 10px 0px 0px 0px;
+    max-width: 960px;
+    display: flex;
+    width: 90%;
+    left: 10%;
+}
+
+.image{
+    padding: 20px;
+    position: relative;
+}
+
+h2{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    height: 8%;
+    width: 80%;
+    height: 15%;
+    font-size: 14px;
+    font-weight: 700;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*Footer*/
 footer{
     background-color: #666666;
     border-top: 8px solid #4aaaa5;

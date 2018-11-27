@@ -14,21 +14,21 @@
 <header>
     <div class=name> Nicole Wilsey Starr</div>
     <nav>
-        <div id=contact>
-            <a href="/Users/nicolewilsey/trilogy/homework/Basic-Portfolio/contact.html">Contact</a>
-        </div>
-        <div id=portfolio>
-            <a href="/Users/nicolewilsey/trilogy/homework/Basic-Portfolio/portfolio.html">Portfolio</a>
-        </div>
-        <div id=about>
-            <a href="/Users/nicolewilsey/trilogy/homework/Basic-Portfolio/index.html">About</a>
-        </div>
-    </nav>
+            <div id=about>
+                <a href="/Users/nicolewilsey/trilogy/homework/Basic-Portfolio/index.html">About</a>
+            </div>       
+            <div id=portfolio>
+                <a href="/Users/nicolewilsey/trilogy/homework/Basic-Portfolio/portfolio.html">Portfolio</a>
+            </div>
+            <div id=contact>
+                    <a href="/Users/nicolewilsey/trilogy/homework/Basic-Portfolio/contact.html">Contact</a>
+                </div>
+        </nav>
 </header>
 
 <body>
-    <h1>Contact</h1>
     <div class=container>
+        <h1>Contact</h1>
         <form>
             <fieldset>
                 Name:<br>
@@ -36,9 +36,8 @@
                 Email:<br>
                 <input type="email" name="email" size="100"><br>
                 Message:<br>
-               <div class=message><input type="text" name="message" size="1000"><br></div>
-                
-                <input type="submit" value="Submit">
+                <textarea id="messageinput" name="message"></textarea><br><br>
+                <input type="submit" name="submit" value="Submit" id="submit">
     </div>
         </form>
             </fieldset>
