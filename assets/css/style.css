@@ -19,21 +19,21 @@ header{
     border-color: #cccccc;
     color: white;
     display: inline-block; 
-    font-family: 'Georgia', 'Times', 'Times New Roman';
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     font-size: 24px;
     font-weight: 900;
     padding: 20px;
-    text-align: center;
     position: relative;
+    text-align: center;
     top: 85px;
 }
 
 nav{
     display: inline-flex;
+    left: 43%;
+    position: relative;
     text-align: center;
     top: 85px;
-    position: relative;
-    left: 43%;
 }
 
 #about, #portfolio, #contact{
@@ -56,18 +56,19 @@ body {
 
 .container{
     background-color: #ffffff;
+    border: solid 2px #dddddd;
     margin: auto;   
     margin-bottom: 50px;
     max-height: 100%;
-    padding: 10px 0px 0px 0px;
     max-width: 960px;
+    padding: 10px 0px 0px 0px;
 }
 
 h1{
     border-bottom: solid 2px #dddddd;
     color: #4aaaa5;
     display: block;
-    font-family: 'Georgia', 'Times', 'Times New Roman';
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     left: 10%;
     position: relative;
     width: 80%;
@@ -87,22 +88,22 @@ blockquote{
 
 /*Contact Page*/
 form{
-    width: 90%;
-    position: relative;
     left: 10%;
+    position: relative;
+    width: 90%;
 }
 
 input{
-   width: 90%;
-   position: relative;
-   margin: 5px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
+    position: relative;
+    width: 90%;
 }
 
 textarea{
-    height: 150px; 
-    width: 90%;
-    left: 50%;
     border: #cccccc solid 1px;
+    height: 150px; 
+    left: 50%;
+    width: 90%;
 }
 
 fieldset{
@@ -112,24 +113,24 @@ fieldset{
 #submit{
     background-color: #4aaaa5;
     color: white;
-    height: 30px;
-    width: 10%;
     font-size: 12px;
     font-weight: 700;
+    height: 30px;
+    width: 10%;
 }
 
 /*Portfolio Page*/
 
 .flex-container{
     background-color: #ffffff;
+    display: flex;
+    left: 10%;
     margin: auto;   
     margin-bottom: 50px;
     max-height: 100%;
-    padding: 10px 0px 0px 0px;
     max-width: 960px;
-    display: flex;
+    padding: 10px 0px 0px 0px;
     width: 90%;
-    left: 10%;
 }
 
 .image{
@@ -138,19 +139,17 @@ fieldset{
 }
 
 h2{
-    position: absolute;
-    background-color: #4aaaa5;
-    color: white;
-    height: 8%;
-    width: 80%;
-    height: 15%;
-    font-size: 14px;
-    font-weight: 700;
-    bottom: 20px;
-    display: flex;
     align-items: center;
+    background-color: #4aaaa5;
+    bottom: 20px;
+    color: white;
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    height: 15%;
     justify-content: center;
-    
+    position: absolute;
+    width: 80%; 
 }
 
 /*Footer*/
@@ -158,8 +157,10 @@ footer{
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     bottom: 0px;
+    width: 100%;
     color: white;
     font-size: 10px;
     height: 50px;
+    position: fixed;
     text-align: center;
 }
