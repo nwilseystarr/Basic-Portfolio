@@ -1,33 +1,34 @@
-<!DOCTYPE html>
+<!doctype <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta name="HandheldFriendly" content="true">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - About Me</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="/Users/nicolewilsey/trilogy/homework/Basic-Portfolio/assets/css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
-    <link rel="icon" type="image/png" sizes="16x16" href="https://hamiltonmusical.com/favicons/favicon-16x16.png">
 </head>
 
 <header>
-    <div class="headercontent">
-        <div class="name"> Nicole Wilsey Starr</div>
-        <nav>
-            <div id="about">
-                <a href="index.html">About</a>
+        <!--Header-->
+        <div class="head">
+            <!--Row 1-->
+            <div class="row first justify-content-md-center headcontent">
+                <div class="col-md-auto name">
+                    <h4>Nicole Wilsey Starr</h1>
+                </div>
+                <!--Navigation Bar-->
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="navtabs text-sm-center nav-link col-md-auto" href="index.html">About</a>
+                    <a class="navtabs text-sm-center nav-link col-md-auto" href="portfolio.html">Portfolio</a>
+                    <a class="navtabs text-sm-center nav-link col-md-auto" href="contact.html">Contact</a>
+                </nav>
             </div>
-            <div id="portfolio">
-                <a href="portfolio.html">Portfolio</a>
-            </div>
-            <div id="contact">
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
-    </div>
-</header>
+        </div>
+    </header>
 
 <body>
     <div class=container>
@@ -39,18 +40,21 @@
                 Email:<br>
                 <input type="email" name="email" size="100"><br>
                 Message:<br>
-                <textarea id="messageinput" name="message"></textarea><br><br>
-                <input type="submit" name="submit" value="Submit" id="submit">
+                <textarea id="messageinput" name="message"></textarea>
+                <br>
+                <button type="button" class="btn">Submit</button>    
             </fieldset>
         </form>
     </div>
 
     </div>
 
+    <div class="push"></div>
+    <footer>
+        <div class="footercontainer">
+            Copyright ©
+        </div>
+    </footer>
 </body>
-<footer>
-    <br><br>
-    Copyright ©
-</footer>
 
 </html>

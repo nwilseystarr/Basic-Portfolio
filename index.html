@@ -1,67 +1,77 @@
-<!DOCTYPE html>
+<!doctype <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta name="HandheldFriendly" content="true">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - About Me</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="/Users/nicolewilsey/trilogy/homework/Basic-Portfolio/assets/css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
-    <link rel="icon" type="image/png" sizes="16x16" href="https://hamiltonmusical.com/favicons/favicon-16x16.png">
 </head>
 
 <header>
-    <div class="headercontent">
-        <div class="name"> Nicole Wilsey Starr</div>
-        <nav>
-            <div id="about">
-                <a href="index.html">About</a>
+    <!--Header-->
+    <div class="head">
+        <!--Row 1-->
+        <div class="row first justify-content-md-center headcontent">
+            <div class="col-md-auto name">
+                <h4>Nicole Wilsey Starr</h1>
             </div>
-            <div id="portfolio">
-                <a href="portfolio.html">Portfolio</a>
-            </div>
-            <div id="contact">
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
+            <!--Navigation Bar-->
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="navtabs text-sm-center nav-link col-md-auto" href="index.html">About</a>
+                <a class="navtabs text-sm-center nav-link col-md-auto" href="portfolio.html">Portfolio</a>
+                <a class="navtabs text-sm-center nav-link col-md-auto" href="contact.html">Contact</a>
+            </nav>
+        </div>
     </div>
 </header>
 
 <body>
+    <!--The Container-->
     <div class=container>
-        <h1>About Me</h1>
-        <div class=about>
-            <div class=mainphoto>
-                <a href="https://www.linkedin.com/in/nicolewilsey/" target="_blank"><img src="/users/nicolewilsey/trilogy/homework/Basic-Portfolio/assets/images/portfoliophoto.jpg"
-                        alt="Photo of Nicole Wilsey Starr in front of Marina Towers" /></a>
-            </div>
-            <div class=aboutme>
-                <blockquote>I am a Bootcamp student at Northwestern Coding Bootcamp focusing on the full-stack MERN
-                    track. I have a degree in
-                    Political Science from DePaul University, and am the Executive-Director for the Model United
-                    Nations Development
-                    Organization which aims to challenge future leaders to think from a global perspective through
-                    immersive and experiential
-                    education. I am also the Chief Operating Officer at cvVentures where we work with and invest in
-                    startups and mature
-                    businesses in the medical/biotech, fintech, education, and real estate sectors in Asia and
-                    North America.
-                    <br>
-                    <br>
-                    I have been “playing” with basic code since I was 14; however, through a project with
-                    cvVentures I really started to see it as more than just an idea. It was while working on a new
-                    fin-tech app in Hong Kong where I learned more about the ins and outs of programming. I am very
-                    excited to continue on my path of continued learning through Bootcamp and my career.
-                </blockquote>
+        <!--Row One-->
+        <div class="row abouthead">
+            <h1>About Me</h1>
+        </div>
+
+        <!--Row Two-->
+        <div class="row aboutmain">
+            <div class="column-md-auto">
+                <div class=mainphoto>
+                    <a href="https://www.linkedin.com/in/nicolewilsey/" target="_blank"><img src="images/portfoliophoto.jpg"
+                            alt="Photo of Nicole Wilsey Starr in front of Marina Towers" /></a>
+                </div>
+                <div class=aboutme>
+                    <blockquote>I am a Bootcamp student at Northwestern Coding Bootcamp focusing on the full-stack MERN
+                        track. I have a degree in
+                        Political Science from DePaul University, and am the Executive-Director for the Model United
+                        Nations Development
+                        Organization which aims to challenge future leaders to think from a global perspective through
+                        immersive and experiential
+                        education. I am also the Chief Operating Officer at cvVentures where we work with and invest in
+                        startups and mature
+                        businesses in the medical/biotech, fintech, education, and real estate sectors in Asia and
+                        North America.
+                        <br>
+                        <br>
+                        I have been “playing” with basic code since I was 14; however, through a project with
+                        cvVentures I really started to see it as more than just an idea. It was while working on a new
+                        fin-tech app in Hong Kong where I learned more about the ins and outs of programming. I am very
+                        excited to continue on my path of continued learning through Bootcamp and my career.
+                    </blockquote>
+                </div>
             </div>
         </div>
     </div>
+    <div class="push"></div>
     <footer>
-        <br><br>
-        Copyright ©
+        <div class="wrapper">
+            Copyright ©
+        </div>
     </footer>
 </body>
-
 </html>
